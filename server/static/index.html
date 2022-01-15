@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>sals' simple soroban</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="stylesheets/main.css">
+	<script src="js/wasm_exec.js" defer></script>
+	<script src="js/wasm.js" defer></script>
+</head>
+
+<body>
+	<h3>soroban that just adds using WebAssembly and Homomorphic Encryption</h3>
+
+	<div class="ex1">
+
+		<div class="myDiv">
+			<h3>Key parameters</h3>
+			<p id="parameters"></p>
+		</div>
+		<p>Add two numbers, using WebAssembly:</p>
+		a: <input type="number" id="a" onkeypress="return event.charCode >= 48" min="1"  value="0"/>  + 
+		b: <input type="number" id="b" onkeypress="return event.charCode >= 48" min="1"  value="0"/> =
+		 <input type="number"  id="result" readonly />
+
+		<br/>		
+		<h3>hash(encrypt(a))</h3>
+		<div class="myDiv">
+			<p id="ea"></p>
+		</div>
+		<br/>
+		<h3>hash(encrypt(b))</h3>		
+		<div class="myDiv">
+			<p id="eb"></p>
+		</div>
+		<br/>	
+
+	</div>
+</body>
+
+</html>
