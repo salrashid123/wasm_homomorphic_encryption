@@ -54,6 +54,7 @@ First compile the wasm binary
 ```bash
 # copy your own `wasm_exec.js` if you want...or just use the one in this repo
 # cp $GOROOT/misc/wasm/wasm_exec.js html/wasm_exec.js
+### wget https://raw.githubusercontent.com/golang/go/refs/tags/go1.21.0/misc/wasm/wasm_exec.js
 
 # compile
 GOOS=js GOARCH=wasm go build -o  server/static/wasm/main.wasm  main.go
