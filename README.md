@@ -1,7 +1,7 @@
 
 ## A simple soroban using WebAssembly and Homomorphic Encryption
 
-About a year ago i was reading up on the new hotness that is [homomorphic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) and tried to understand what it is and how it works.   I guess i know the former just barely but the latter simply is way, way beyond my  skills.  If thats' what your'e looking to find here, please see the articles cited below (esp [A Homomorphic Encryption Illustrated Primer](https://humanata.com/blog/illustrated_primer/)).
+About a year ago i was reading up on the new hotness that is [homomorphic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) and tried to understand what it is and how it works.   I guess i know the former just barely but the latter simply is way, way beyond my  skills.  If thats' what your'e looking to find here, please see the articles cited below (esp [A Homomorphic Encryption Illustrated Primer]([https://humanata.com/blog/illustrated_primer/](https://muens.io/pdfs/stephen-hardy-a-homomorphic-encryption-illustrated-primer.pdf))).
 
 Anyway, in an effort to learn it, i decided to writeup a simple "ride sharing" app that i read about in both [Microsoft SEAL](https://github.com/microsoft/SEAL) and go's [Lttigo](https://github.com/ldsec/lattigo) libraries.  It worked pretty nicely if for nothing else but a 'helloworld'.
 
